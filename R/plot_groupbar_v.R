@@ -19,13 +19,14 @@
 #' @import dplyr
 #' @import ggplot2
 #' @import ggfittext
-#' @import pollster
+# @import pollster
 #'
 plot_groupbar_v <- function(data, item, by, weights, question,
                             lang = "DE", barpadding = 0.1, barposition = "dodge", 
                             legendtitle = "", textsize = 8, min_textsize = 5, ...){
   
   if(missing(barposition) | barposition == "dodge"){
+    
     barposition <- position_dodge2(padding = barpadding)
     out <- TRUE
     percent_position <- "top"

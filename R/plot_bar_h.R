@@ -19,7 +19,7 @@
 #' @importFrom rlang .data
 #' @import forcats
 #' @import ggfittext
-#' @import pollster
+# @import pollster
 #'
 plot_bar_h <- function(data, item, weights, question,
                        lang = "DE", barcolor = "#1F407A", barwidth = 0.8, 

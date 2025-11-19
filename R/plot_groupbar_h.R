@@ -20,7 +20,7 @@
 #' @import ggplot2
 #' @import forcats
 #' @import ggfittext
-#' @import pollster
+# @import pollster
 #'
 
 plot_groupbar_h <- function(data, item, by, weights, question,

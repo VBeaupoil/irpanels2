@@ -33,8 +33,7 @@ Imports:
     scales,
     forcats,
     kableExtra,
-    tidyverse,
-    pollster
+    tidyverse
 Suggests: 
     knitr,
     rmarkdown
