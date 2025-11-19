@@ -17,7 +17,11 @@ Authors@R:
     person(given = "Patricia",
            family = "Maissen",
            role = "ctb",
-           email = "pmaissen@ethz.ch"))
+           email = "pmaissen@ethz.ch"),
+    person(given = "Victoria",
+           family = "Beaupoil",
+           role = "ctb",
+           email = "vbeaupoil@ethz.ch"))
 Description: Easier data wrangling with Swiss Environmental Panel and Swiss Mobility Panel data.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -33,7 +37,10 @@ Imports:
     scales,
     forcats,
     kableExtra,
-    tidyverse
+    tidyverse,
+    stringr,
+    labelled,
+    rlang
 Suggests: 
     knitr,
     rmarkdown
